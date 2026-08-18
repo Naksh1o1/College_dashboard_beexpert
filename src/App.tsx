@@ -882,7 +882,7 @@ function PlacementReadinessPage({ setSelectedStudent }: { setSelectedStudent: (s
 
   return (
     <div className="readiness-scope">
-      <div className="mx-auto max-w-[1400px] px-6 py-9 lg:px-10">
+      <div className="mx-auto w-full max-w-full lg:max-w-[1400px] px-4 lg:px-10 py-6 lg:py-9">
         <header className="mb-7 flex flex-wrap items-end justify-between gap-3">
           <div>
             <p className="text-[10px] font-semibold uppercase tracking-[0.2em] text-primary/80">
