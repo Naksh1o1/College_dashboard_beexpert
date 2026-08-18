@@ -309,7 +309,6 @@ function Header({ page, academicYear, department, changeYear, changeDepartment, 
         {profileOpen && <div className="popover" onClick={(e) => e.stopPropagation()}>
           <div className="popover-header">Account</div>
           <button className="popover-item" onClick={() => { setProfileOpen(false); openProfile(); }}><UserRound size={15} /> Profile</button>
-          <button className="popover-item" onClick={() => { setProfileOpen(false); setPage('Settings'); }}><Settings2 size={15} /> Settings</button>
           <div className="popover-divider"></div>
           <button className="popover-item" onClick={() => { setProfileOpen(false); }} style={{ color: '#e0524a' }}><Zap size={15} /> Sign Out</button>
         </div>}
